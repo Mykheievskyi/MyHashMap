@@ -3,92 +3,59 @@ package myHashMap;
 
 public class MyHashMap {
 
-    private int DEFAULT_BUCKET_COUNT = 10;
+    private final static int TABLE_SIZE = 10;
     private int size = 0;
-    private Entry[] buckets;
 
-    public class Entry {
+    HashEntry[] table;
 
-        private Entry next;
-        private final int key;
+    public class HashEntry {
+        private int key;
         private long value;
 
-        public Entry(int key, long value) {
+        HashEntry(int key, long value) {
             this.key = key;
-            this.setValue(value);
+            this.value = value;
         }
 
         public int getKey() {
             return key;
         }
 
-        public void setValue(long value) {
-            this.value = value;
-        }
-
         public long getValue() {
             return value;
         }
-
-        public void setNext(Entry next) {
-            this.next = next;
-        }
-
-        public Entry getNext() {
-            return next;
-        }
     }
-
 
     public MyHashMap() {
-        buckets = new Entry[DEFAULT_BUCKET_COUNT];
-    }
-
-    public MyHashMap(int capacity) {
-        buckets = new Entry[capacity];
+        table = new HashEntry[TABLE_SIZE];
+        for (int i = 0; i < TABLE_SIZE; i++)
+            table[i] = null;
     }
 
     public long get(int key) {
-
-        Entry entry = buckets[bucketIndexForKey(key)];
-        while (entry != null && key != entry.getKey())
-            entry = entry.getNext();
-        return entry != null ? entry.getValue() : null;
+        int hash = (key % TABLE_SIZE);
+        while (table[hash] != null && table[hash].getKey() != key)
+            hash = (hash + 1) % TABLE_SIZE;
+        if (table[hash] == null)
+            return -1;
+        else
+            return table[hash].getValue();
     }
 
     public void put(int key, long value) {
-
-        int bucketIndex = bucketIndexForKey(key);
-        Entry entry = buckets[bucketIndex];
-
-        if (null != entry) {
-            boolean done = false;
-            while (!done) {
-                if (key == entry.getKey()) {
-                    entry.setValue(value);
-                    done = true;
-                } else if (entry.getNext() == null) {
-                    entry.setNext(new Entry(key, value));
-                    done = true;
-                }
-                entry = entry.getNext();
-            }
-        } else {
-
-            buckets[bucketIndex] = new Entry(key, value);
+        int hash = (key % TABLE_SIZE);
+        while (table[hash] != null && table[hash].getKey() != key) {
+            hash = (hash + 1) % TABLE_SIZE;
+        }
+        if (table[hash] == null)
+        {
             size++;
         }
+        table[hash] = new HashEntry(key, value);
     }
 
     public int size()
     {
         return size;
     }
-
-    public int bucketIndexForKey(int key) {
-
-        int bucketIndex = key % buckets.length;
-        return bucketIndex;
-    }
-
 }

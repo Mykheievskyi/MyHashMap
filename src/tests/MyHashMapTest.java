@@ -51,8 +51,7 @@ public class MyHashMapTest
             map.put(8, (long) 8);
             map.put(9, (long) 9);
             map.put(10, (long) 10);
-            map.put(11, (long) 2);
-
-            assertEquals(10, map.size());
+            map.put(1, (long) 2);
+            assertEquals(2, map.get(1));
         }
 }

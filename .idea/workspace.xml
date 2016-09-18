@@ -25,25 +25,15 @@
       <file leaf-file-name="MyHashMap.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/myHashMap/MyHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#1873#1874#0" expanded="true" />
-                <element signature="e#1900#1901#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#1289#1290#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +42,8 @@
       <file leaf-file-name="MyHashMapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/MyHashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="803">
-              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            <state relative-caret-position="825">
+              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +75,8 @@
         <option value="$PROJECT_DIR$/src/tests/PutTest.java" />
         <option value="$PROJECT_DIR$/src/newHashMap/Entry.java" />
         <option value="$PROJECT_DIR$/src/newHashMap/MyHashMap.java" />
-        <option value="$PROJECT_DIR$/src/myHashMap/MyHashMap.java" />
         <option value="$PROJECT_DIR$/src/tests/MyHashMapTest.java" />
+        <option value="$PROJECT_DIR$/src/myHashMap/MyHashMap.java" />
       </list>
     </option>
   </component>
@@ -197,7 +187,7 @@
       <recent name="newHashMap" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyHashMapTest">
+  <component name="RunManager" selected="JUnit.MyHashMapTest.checkingMaxSize">
     <configuration default="false" name="MyHashMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -722,9 +712,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MyHashMapTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyHashMapTest.createOtherSizeHashMap" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MyHashMapTest.checkingMaxSize" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyHashMapTest.checkingMaxSize" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyHashMapTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MyHashMapTest.createOtherSizeHashMap" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.MyHashMapTest.checkSize" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.MyHashMapTest.overWriteValue" />
       </list>
@@ -743,62 +733,62 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474205801155</updated>
-      <workItem from="1474205803513" duration="13487000" />
+      <workItem from="1474205803513" duration="17386000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyHashMapTest - 2016.09.18 at 20h 28m 25s.xml">
+    <history-entry file="MyHashMapTest - 2016.09.18 at 22h 15m 52s.xml">
       <configuration name="MyHashMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyHashMapTest - 2016.09.18 at 21h 20m 35s.xml">
+    <history-entry file="MyHashMapTest - 2016.09.18 at 22h 35m 18s.xml">
       <configuration name="MyHashMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyHashMapTest - 2016.09.18 at 21h 21m 32s.xml">
+    <history-entry file="MyHashMapTest - 2016.09.18 at 22h 35m 51s.xml">
       <configuration name="MyHashMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyHashMapTest - 2016.09.18 at 21h 21m 57s.xml">
+    <history-entry file="MyHashMapTest - 2016.09.18 at 22h 41m 38s.xml">
       <configuration name="MyHashMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyHashMapTest - 2016.09.18 at 21h 23m 53s.xml">
+    <history-entry file="MyHashMapTest - 2016.09.18 at 22h 42m 00s.xml">
       <configuration name="MyHashMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyHashMapTest - 2016.09.18 at 21h 26m 58s.xml">
+    <history-entry file="MyHashMapTest - 2016.09.18 at 22h 42m 26s.xml">
       <configuration name="MyHashMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyHashMapTest - 2016.09.18 at 21h 28m 01s.xml">
+    <history-entry file="MyHashMapTest - 2016.09.18 at 22h 44m 11s.xml">
       <configuration name="MyHashMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyHashMapTest - 2016.09.18 at 21h 28m 36s.xml">
+    <history-entry file="MyHashMapTest - 2016.09.18 at 22h 45m 38s.xml">
       <configuration name="MyHashMapTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyHashMapTest_createOtherSizeHashMap - 2016.09.18 at 21h 28m 23s.xml">
-      <configuration name="MyHashMapTest.createOtherSizeHashMap" configurationId="JUnit" />
+    <history-entry file="MyHashMapTest_checkingMaxSize - 2016.09.18 at 22h 46m 07s.xml">
+      <configuration name="MyHashMapTest.checkingMaxSize" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyHashMapTest_createOtherSizeHashMap - 2016.09.18 at 21h 28m 29s.xml">
-      <configuration name="MyHashMapTest.createOtherSizeHashMap" configurationId="JUnit" />
+    <history-entry file="MyHashMapTest_checkingMaxSize - 2016.09.18 at 22h 46m 34s.xml">
+      <configuration name="MyHashMapTest.checkingMaxSize" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13487000" />
+    <option name="totallyTimeSpent" value="17386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="23" width="1271" height="740" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.50284785" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.49715215" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979658" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979658" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24979658" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -877,8 +867,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/MyHashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        <state relative-caret-position="825">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -887,25 +877,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/myHashMap/MyHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-            <element signature="e#1900#1901#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
           </folding>
         </state>
       </provider>
