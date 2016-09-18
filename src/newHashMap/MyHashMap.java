@@ -1,13 +1,12 @@
 package newHashMap;
 
-/**
- * Created by dima on 18.09.16.
- */
-public class MyHashMap<K, V> {
+
+public class MyHashMap {
 
     private int DEFAULT_BUCKET_COUNT = 10;
+    private int size = 0;
 
-    private Entry<V, K>[] buckets;
+    private Entry[] buckets;
 
     public MyHashMap() {
         buckets = new Entry[DEFAULT_BUCKET_COUNT];
@@ -17,45 +16,52 @@ public class MyHashMap<K, V> {
         buckets = new Entry[capacity];
     }
 
-    public V get(K key) {
+    public long get(int key) {
         throwIfKeyNull(key);
-        Entry<V, K> entry = buckets[bucketIndexForKey(key)];
-        while (entry != null && !key.equals(entry.getKey()))
+        Entry entry = buckets[bucketIndexForKey(key)];
+        while (entry != null && key != entry.getKey())
             entry = entry.getNext();
         return entry != null ? entry.getValue() : null;
     }
 
-    public void put(K key, V value) {
+    public void put(int key, long value) {
         throwIfKeyNull(key);
 
         int bucketIndex = bucketIndexForKey(key);
-        Entry<V, K> entry = buckets[bucketIndex];
+        Entry entry = buckets[bucketIndex];
 
         if (null != entry) {
             boolean done = false;
             while (!done) {
-                if (key.equals(entry.getKey())) {
+                if (key == entry.getKey()) {
                     entry.setValue(value);
                     done = true;
                 } else if (entry.getNext() == null) {
-                    entry.setNext(new Entry<V, K>(key, value));
+                    entry.setNext(new Entry(key, value));
                     done = true;
                 }
                 entry = entry.getNext();
             }
         } else {
             // nothing there at all; just shove the new entry in
-            buckets[bucketIndex] = new Entry<V, K>(key, value);
+            buckets[bucketIndex] = new Entry(key, value);
+            size++;
         }
     }
 
-    public int bucketIndexForKey(K key) {
-        int bucketIndex = key.hashCode() % buckets.length;
+    public int size()
+    {
+        return size;
+    }
+
+    public int bucketIndexForKey(int key) {
+        //We consider the value of the key hashCode
+        int bucketIndex = key % buckets.length;
         return bucketIndex;
     }
 
-    private void throwIfKeyNull(K key) {
-        if (key == null) {
+    private void throwIfKeyNull(int key) {
+        if (key == 0) {
             throw new IllegalArgumentException("key may not be null");
         }
     }

@@ -1,36 +1,34 @@
 package newHashMap;
 
-/**
- * Created by dima on 18.09.16.
- */
-public class Entry<V, K> {
 
-    private Entry<V, K> next;
-    private final K key;
-    private V value;
+public class Entry {
 
-    public Entry(K key, V value) {
+    private Entry next;
+    private final int key;
+    private long value;
+
+    public Entry(int key, long value) {
         this.key = key;
         this.setValue(value);
     }
 
-    public K getKey() {
+    public int getKey() {
         return key;
     }
 
-    public void setValue(V value) {
+    public void setValue(long value) {
         this.value = value;
     }
 
-    public V getValue() {
+    public long getValue() {
         return value;
     }
 
-    public void setNext(Entry<V, K> next) {
+    public void setNext(Entry next) {
         this.next = next;
     }
 
-    public Entry<V, K> getNext() {
+    public Entry getNext() {
         return next;
     }
 }
