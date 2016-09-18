@@ -59,6 +59,10 @@ public class MyHashMapTest
 
             map.put(11, (long) 2);
             assertEquals(10, map.size());
+            System.out.println(map.get(11));
+            System.out.println(map.get(1));
         }
+
+
 
 }
