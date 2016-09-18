@@ -6,9 +6,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by dima on 18.09.16.
- */
 public class MyHashMapTest
 {
 
@@ -54,15 +51,8 @@ public class MyHashMapTest
             map.put(8, (long) 8);
             map.put(9, (long) 9);
             map.put(10, (long) 10);
-
-            assertEquals(10, map.size());
-
             map.put(11, (long) 2);
+
             assertEquals(10, map.size());
-            System.out.println(map.get(11));
-            System.out.println(map.get(1));
         }
-
-
-
 }
