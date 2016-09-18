@@ -1,6 +1,6 @@
 package tests;
 
-import newHashMap.MyHashMap;
+import myHashMap.MyHashMap;
 import org.junit.Test;
 
 
@@ -58,7 +58,7 @@ public class MyHashMapTest
             assertEquals(10, map.size());
 
             map.put(11, (long) 2);
-            System.out.println(map.size());
+            assertEquals(10, map.size());
         }
 
 }

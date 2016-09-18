@@ -1,4 +1,4 @@
-package newHashMap;
+package myHashMap;
 
 
 public class MyHashMap {
